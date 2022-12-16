@@ -1,0 +1,1 @@
+# precommit-hook-google-style-formatter
