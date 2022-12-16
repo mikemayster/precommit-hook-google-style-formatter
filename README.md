@@ -8,12 +8,13 @@ the commit will be aborted, so that you can incorporate formatting fixes.
 
 Usage:
 
-```
-repos:
+Add this to your `.pre-commit-config.yaml`:
+
+```yaml
 - repo: https://github.com/mikemayster/precommit-hook-google-style-formatter
-  sha: b7e9e7fcba4a5aea463e72fe9964c14877bd8130
-    hooks:
-      - id: google-style-java
+  rev: "" # Use the sha / tag you want to point at
+  hooks:
+    - id: google-style-java
 ```
 
 # License
